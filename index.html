@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BFDI QuoteBot - Get replies in pure BFDI quotes powered by GPT-4o-mini" />
+  <meta name="author" content="Micah Scott Nordlund" />
+  <title>BFDI QuoteBot | Powered by GPT-4o-mini</title>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon (Optional) -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+  <header class="main-header">
+    <h1>BFDI QuoteBot</h1>
+    <p class="subtitle">Ask me *anything*. I’ll answer using 100% authentic BFDI quotes. That’s it. No normal words. Just chaos.</p>
+  </header>
+
+  <main class="main-content">
+    <section class="input-area">
+      <label for="userInput" class="input-label">Your Question:</label>
+      <input type="text" id="userInput" name="userInput" placeholder="e.g. What’s the meaning of life?" autocomplete="off" />
+      <button id="submitBtn">Get BFDI Wisdom</button>
+    </section>
+
+    <section class="response-area">
+      <h2>QuoteBot Says:</h2>
+      <div id="responseBox" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Created by Micah | Not affiliated with Jacknjellify</p>
+    <p><a href="https://bfdi.tv" target="_blank" rel="noopener noreferrer">Watch BFDI</a></p>
+  </footer>
+
+  <!-- Main Script -->
+  <script src="app.js"></script>
+</body>
+</html>
