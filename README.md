@@ -129,8 +129,7 @@ This project is open-source under the MIT License. Use it, remix it, meme it —
 ## Acknowledgments
 
 Massive shoutout to the entire *Battle for Dream Island* fan community for keeping the show’s spirit alive and inspiring this project.  
-Special thanks to OpenAI for powering the AI magic.  
-And of course, shoutout to you, Micah, for being the GOAT developer driving this madness.
+Special thanks to OpenAI for making like 50% of this project.
 
 ---
 
